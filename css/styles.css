@@ -114,6 +114,8 @@ img {
 }
 .adress-list {
   font-style: normal;
+}
+.adress-list-ul {
   display: flex;
   gap: 40px;
 }
