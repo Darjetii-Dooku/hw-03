@@ -188,11 +188,18 @@ img {
   color: var(--slatecolor);
 }
 .second-section-list-item {
-  flex-basis: calc(100% - 72px) / 4;
+  flex-basis: calc((100% - 72px) / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
 }
 
 /* 3 section */
-.third-sectiond-title {
+.third-section {
+  padding-bottom: 120px;
+}
+.third-section-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -202,8 +209,14 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
-.third-sectiond-images {
+.third-section-images {
+  display: flex;
+  gap: 24px;
+}
+.third-section-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 /* 4 section */
 .team-cards-section {
