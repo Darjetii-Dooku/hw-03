@@ -37,6 +37,7 @@ img {
   --bluecolor: #4d5ae5;
   --slatecolor: #434455;
   --whitecolor: #f4f4fd;
+  --button-border-color: #e7e9fc;
 }
 /* Header */
 .header {
@@ -290,7 +291,17 @@ img {
   max-width: 264px;
 }
 
+/* Portfolio */
+.main-section {
+  padding: 96px 0 120px 0;
+}
 /* Filters */
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .filter-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -302,11 +313,19 @@ img {
   color: var(--bluecolor);
   background: var(--whitecolor);
   cursor: pointer;
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--button-border-color);
 }
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .project-cards-titles {
   font-family: "Roboto";
