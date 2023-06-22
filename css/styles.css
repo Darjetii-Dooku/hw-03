@@ -43,7 +43,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  width: 1158px;
+  max-width: 1128px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -70,7 +70,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--bluecolor);
   display: inline-flex;
   height: 24px;
   margin-right: 76px;
@@ -126,6 +126,7 @@ img {
 /* 1 section */
 .first-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .first-section-text {
   font-family: "Roboto";
@@ -136,9 +137,10 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .first-section-button {
-  background: #4d5ae5;
+  background: var(--bluecolor);
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -146,6 +148,12 @@ img {
   line-height: 24px;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 169px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .first-section-button:hover,
 .first-section-button:focus {
