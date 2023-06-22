@@ -335,6 +335,7 @@ img {
   row-gap: 48px;
   max-width: 1128px;
   padding: 0;
+  flex-shrink: 0;
 }
 .project-cards-item {
   width: 360px;
