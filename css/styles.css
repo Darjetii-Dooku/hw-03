@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  color: #434455;
+  color: var(--slatecolor);
 }
 h1,
 h2,
@@ -165,6 +165,13 @@ img {
 }
 
 /* 2 section */
+.second-section {
+  padding: 120px 0;
+}
+.second-section-list {
+  display: flex;
+  gap: 24px;
+}
 .second-section-title {
   font-family: "Roboto";
   font-style: normal;
@@ -173,11 +180,13 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .second-section-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slatecolor);
+  width: calc((100% - 72px) / 4);
 }
 
 /* 3 section */
