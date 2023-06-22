@@ -235,12 +235,9 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.team-cards-list {
+.team-cards {
   display: flex;
   gap: 24px;
-}
-.team-cards {
-  background: #ffffff;
 }
 .team-cards-titles {
   font-family: "Roboto";
@@ -257,14 +254,17 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-cards-item {
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: 264px;
   border-radius: 0px 0px 4px 4px;
 }
 .team-cards-text-item {
   padding: 32px 16px;
+  display: block;
+  margin: 0 auto;
 }
 /* Footer */
 .light-logo {
